@@ -1,13 +1,8 @@
 import React from "react";
+import LoginForm from "./components/LoginForm";
 
 const App = () => {
-  return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100">
-      <h1 className="text-8xl font-bold text-blue-600">
-        Hello, Tailwind with Vite!
-      </h1>
-    </div>
-  );
+  return <LoginForm />;
 };
 
 export default App;
