@@ -8,46 +8,55 @@ const LoginForm = () => {
 
   return (
     <div className="flex flex-row mt-0 mx-auto h-full w-full lg:w-10/11 xl:w-5/6 flex-wrap font-playfair tracking-wide flex-shrink-1">
-      <div className="h-full xl:w-1/2 w-full text-xl p-24 ">
-        <div className="flex flex-col flex-shrink-1 md:mt-16">
-          <div className="text-4xl font-semibold font-crimson flex lg:justify-start justify-center items-center">
-            <img src="/images/brandIcon.svg" className="h-14 w-14"></img>
+      <div className="h-full xl:w-1/2 w-full text-xl 2xl:p-24 md:p-3 p-2">
+        <div className="flex flex-col flex-shrink-1 2xl:mt-16 mt-3 sm:mt-6">
+          <div className="2xl:text-4xl text-lg font-semibold font-crimson flex lg:justify-start justify-center items-center">
+            <img
+              src="/images/brandIcon.svg"
+              className="2xl:h-14 2xl:w-14 h-8 w-8"
+            ></img>
             &nbsp; Z Fashion
           </div>
-          <div className="my-16 text-7xl font-bold md:mt-24 md:my-20">
+          <div className="xl:my-16 my-3 2xl:text-7xl text-2xl font-bold md:mt-24 2xl:my-20 text-center md:text-start">
             Sign in to your account
           </div>
           <form onSubmit={handleSumbit}>
-            <div className="flex flex-col md:h-1/3 h-1/4 justify-end">
-              <div className="my-11 flex flex-col">
-                <label className="text-5xl font-semibold" htmlFor="email">
+            <div className="flex flex-col xl:h-1/3 h-1/4 justify-end">
+              <div className="2xl:my-11 xl:my-6 my-2 flex flex-col">
+                <label
+                  className="2xl:text-5xl text-xl font-semibold"
+                  htmlFor="email"
+                >
                   Email Address
                 </label>
                 <input
                   placeholder="Email Address"
                   id="email"
                   type="email"
-                  className="p-6 text-4xl mt-4 rounded outline-blue-200 border-gray-200 border"
+                  className="2xl:p-6 p-2 2xl:text-4xl text-2xl 2xl:mt-4 mt-2 rounded outline-blue-200 border-gray-200 border"
                 ></input>
               </div>
-              <div className="my-11 flex flex-col">
-                <label className="text-5xl font-semibold" htmlFor="pass">
+              <div className="2xl:my-11 md:my-4 my-2 flex flex-col">
+                <label
+                  className="2xl:text-5xl text-xl font-semibold"
+                  htmlFor="pass"
+                >
                   Password
                 </label>
                 <input
                   id="pass"
                   type="password"
                   placeholder="Password"
-                  className="p-6 text-4xl mt-4 rounded outline-blue-200 border-gray-200 border"
+                  className="2xl:p-6 p-2 2xl:text-4xl text-2xl 2xl:mt-4 mt-2 rounded outline-blue-200 border-gray-200 border"
                 ></input>
-                <p className="text-end text-3xl font-semibold md:mt-8 hover:text-blue-800 cursor-pointer">
+                <p className="text-end 2xl:text-3xl text-xl font-semibold xl:mt-8 mt-2 lg:mt-4 hover:text-blue-800 cursor-pointer">
                   Forgot Password?
                 </p>
               </div>
-              <button className="text-4xl font-bold text-white bg-slate-950 p-10 rounded-lg hover:bg-slate-900 hover:border-gray-400 border">
+              <button className="2xl:text-4xl md:text-2xl text-xl font-bold text-white bg-slate-950 2xl:p-10 p-4 rounded-lg hover:bg-slate-900 hover:border-gray-400 border">
                 SIGN IN
               </button>
-              <p className="text-3xl my-12 text-center">
+              <p className="2xl:text-3xl text-lg 2xl:my-12 lg:my-6 my-4 text-center">
                 Don't have an account?{" "}
                 <a className="font-bold cursor-pointer hover:text-blue-800 ">
                   Sign up
@@ -56,7 +65,7 @@ const LoginForm = () => {
             </div>
           </form>
           <hr></hr>
-          <div className="flex justify-evenly text-3xl mt-12 sm:flex-wrap">
+          <div className="flex justify-evenly 2xl:text-3xl text-xl 2xl:mt-12 lg:mt-6 mt-3 sm:flex-wrap">
             <a className="hover:text-blue-800 font-semibold cursor-pointer">
               Terms & Conditions
             </a>
