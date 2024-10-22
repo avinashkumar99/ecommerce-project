@@ -8,7 +8,7 @@ const LoginForm = () => {
 
   return (
     <div className="flex flex-row mt-0 mx-auto h-full w-full lg:w-10/11 xl:w-5/6 flex-wrap font-playfair tracking-wide flex-shrink-1">
-      <div className="h-full xl:w-1/2 w-full text-xl 2xl:p-24 md:p-3 p-2">
+      <div className="h-full xl:w-1/2 w-full text-xl 2xl:p-24 md:p-4 p-2">
         <div className="flex flex-col flex-shrink-1 2xl:mt-16 mt-3 sm:mt-6">
           <div className="2xl:text-4xl text-lg font-semibold font-crimson flex lg:justify-start justify-center items-center">
             <img
@@ -17,12 +17,12 @@ const LoginForm = () => {
             ></img>
             &nbsp; Z Fashion
           </div>
-          <div className="xl:my-16 my-3 2xl:text-7xl text-2xl font-bold md:mt-24 2xl:my-20 text-center md:text-start">
+          <div className="xl:my-10 my-1 2xl:text-7xl text-2xl font-bold md:mt-24 2xl:my-20 text-center md:text-start">
             Sign in to your account
           </div>
           <form onSubmit={handleSumbit}>
             <div className="flex flex-col xl:h-1/3 h-1/4 justify-end">
-              <div className="2xl:my-11 xl:my-6 my-2 flex flex-col">
+              <div className="2xl:my-11 xl:my-2 my-1 flex flex-col">
                 <label
                   className="2xl:text-5xl text-xl font-semibold"
                   htmlFor="email"
