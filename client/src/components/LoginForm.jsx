@@ -49,7 +49,7 @@ const LoginForm = () => {
                   placeholder="Password"
                   className="2xl:p-6 p-2 2xl:text-4xl text-2xl 2xl:mt-4 mt-2 rounded outline-blue-200 border-gray-200 border"
                 ></input>
-                <p className="text-end 2xl:text-3xl text-xl font-semibold xl:mt-8 mt-2 lg:mt-4 hover:text-blue-800 cursor-pointer">
+                <p className="text-end 2xl:text-2xl text-lg font-semibold xl:mt-8 mt-2 lg:mt-4 hover:text-blue-800 cursor-pointer">
                   Forgot Password?
                 </p>
               </div>
@@ -75,7 +75,7 @@ const LoginForm = () => {
           </div>
         </div>
       </div>
-      <div className="lg:h-screen lg:block hidden xl:w-1/2 w-full text-xl overflow-hidden">
+      <div className="md:h-screen md:block hidden xl:w-1/2 w-full text-xl overflow-hidden">
         <img
           src="images/loginImage.jpg"
           alt="fashionModel"
@@ -83,6 +83,9 @@ const LoginForm = () => {
         ></img>
       </div>
     </div>
+
+    // lets create css using container, row and col of tailwind
+    // <div></div>
   );
 };
 
