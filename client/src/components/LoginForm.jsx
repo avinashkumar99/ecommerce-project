@@ -75,7 +75,7 @@ const LoginForm = () => {
           </div>
         </div>
       </div>
-      <div className="md:h-screen md:block hidden xl:w-1/2 w-full text-xl overflow-hidden">
+      <div className="md:h-screen md:block hidden xl:w-1/2 w-full text-xl overflow-hidden perspective skew-y-12">
         <img
           src="images/loginImage.jpg"
           alt="fashionModel"

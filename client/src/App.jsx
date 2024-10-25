@@ -5,8 +5,8 @@ import NavBar from "./components/NavBar";
 const App = () => {
   return (
     <>
-      {/* <LoginForm /> */}
-      <NavBar />
+      <LoginForm />
+      {/* <NavBar /> */}
     </>
   );
 };
