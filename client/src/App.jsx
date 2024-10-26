@@ -8,11 +8,16 @@ import Hero from "./components/Hero";
 const App = () => {
   return (
     <>
+<<<<<<< Updated upstream
       {/* <LoginForm /> */}
       {/* <Home /> */}
       <Hero />
       {/* <NavBar /> */}
       {/* <Footer /> */}
+=======
+      <LoginForm />
+      {/* <NavBar /> */}
+>>>>>>> Stashed changes
     </>
   );
 };
