@@ -1,16 +1,15 @@
 import React from "react";
+import Hero from "./Hero";
+import Content1 from "./Content1";
+import Content2 from "./Content2";
 
 const Home = () => {
   return (
     <div className="container">
-      <div className="grid lg:grid-cols-4 md:grid-cols-3 grid-cols-1 h-screen w-screen">
-        <div className="col-span-1">
-          <img
-            src="/card-img.jpg"
-            alt="lady-image"
-            className="h-full w-full"
-          ></img>
-        </div>
+      <Hero />
+      <div className="w-screen">
+        <Content1 />
+        <Content2 />
       </div>
     </div>
   );

@@ -3,14 +3,14 @@ import Button from "./Button";
 
 const Hero = () => {
   return (
-    <div className="w-screen h-screen flex border border-blue-400 flex-wrap md:flex-nowrap">
+    <div className="w-screen flex flex-wrap md:flex-nowrap bg-slate-100 overflow-clip custom-height">
       {/* div for hero content */}
-      <div className="flex text-4xl h-full md:w-[60%]">
+      <div className="flex text-4xl h-full md:w-[60%] my-auto">
         <div className="flex flex-col w-full p-4 md:p-0 my-auto 2xl:ms-20">
           {/* for showing offer part */}
           <div className="text-center">
             <h3 className="2xl:text-5xl text-lg font-bold 2xl:mb-5 mb-2">
-              <span className="rounded-3xl 2xl:px-12 2xl:py-4 bg-slate-100">
+              <span className="rounded-3xl 2xl:px-12 2xl:py-4 bg-white">
                 Enjoy 50% OFF in Our Summer Super Sale!
               </span>
             </h3>
@@ -42,7 +42,7 @@ const Hero = () => {
       </div>
       {/* div for image content */}
       <div className="h-full md:w-[40%] w-full md:flex md:justify-end hidden lg:block">
-        <div className="h-8/10 p-3 flex">
+        <div className="h-8/10 p-3 flex custom-hero-effect">
           <img className="" src="/images/heroImg1.png" />
         </div>
       </div>

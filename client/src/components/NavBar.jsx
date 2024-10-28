@@ -40,7 +40,7 @@ const NavBar = () => {
             Blog
           </a>
         </div>
-        <div className="flex text-xl 2xl:text-4xl items-center text-gray-500 w-auto">
+        <div className="flex text-xl 2xl:text-4xl items-center text-gray-500 ms-auto">
           <a href="">
             <i class="fa-solid fa-magnifying-glass mx-6 hover:text-gray-950"></i>
           </a>
