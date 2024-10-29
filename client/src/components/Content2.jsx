@@ -2,7 +2,7 @@ import React from "react";
 
 const Content2 = () => {
   return (
-    <div className="w-full h-screen grid grid-cols-1 md:grid-cols-5">
+    <div className="w-full h-screen grid grid-cols-1 lg:grid-cols-5">
       <div className="h-[90%] w-[100%] my-auto collection-hover-effect">
         <img
           src="/images/sportswear.jpeg"

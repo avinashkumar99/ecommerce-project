@@ -17,14 +17,23 @@
   max-height: calc(100vh - 100px);
 }
 
+/* category section  */
 .collection-hover-effect {
   position: relative;
   left: -12.5%;
   overflow: hidden;
 }
-/* hero section  */
+.collection-hover-effect::after {
+  position: absolute;
+  content: "Sports Wear";
+  bottom: 50%;
+  left: -15%;
+  @apply 2xl:text-9xl font-bold text-slate-400;
+  transform: rotateZ(-90deg) scale(1);
+  transition: transform 0.5s ease-in-out;
+  /* transform: scale(1); */
+}
 
-/* category section  */
 .collection-hover-effect img {
   position: absolute;
   width: 100%;
@@ -32,11 +41,45 @@
   right: 30%;
   object-fit: cover;
   transform: translate(70%);
-  /* transform-origin: center; */
   transition: transform 0.5s ease-in-out;
-  /* z-index: 0.5; */
 }
 
 .collection-hover-effect:hover img {
   transform: translate(30%);
+}
+
+.collection-hover-effect:hover::after {
+  transform: rotateZ(-90deg) scale(0);
+}
+
+/* custom trending  */
+.custom-trending {
+  outline: 5px solid #a91b60;
+  transition: background-color 0.5s ease-in;
+}
+.custom-trending:hover {
+  color: white;
+  @apply bg-stone-900;
+  outline: 5px solid #ff0080;
+}
+
+/* trending container div  */
+.custom-trending-container {
+  perspective: 2500px;
+}
+.custom-trending-container img {
+  border: 5px solid #ff0080;
+  margin: auto 2rem;
+}
+
+.rotated-plus-y {
+  transform: rotateY(20deg) scale(0.8);
+}
+
+.rotated-mimus-y {
+  transform: rotateY(-20deg) scale(0.8);
+}
+
+.mid-img {
+  transform: scale(1.1);
 }
