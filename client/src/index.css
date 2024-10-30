@@ -3,6 +3,12 @@
 @tailwind components;
 @tailwind utilities;
 
+body,
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 .custom-button {
   @apply px-6 py-2 text-lg m-1 bg-slate-950 text-white;
   border: 2px solid white;
@@ -27,8 +33,8 @@
   position: absolute;
   content: "Sports Wear";
   bottom: 50%;
-  left: -15%;
-  @apply 2xl:text-9xl font-bold text-slate-400;
+  left: -1%;
+  @apply md:text-5xl font-bold text-slate-400;
   transform: rotateZ(-90deg) scale(1);
   transition: transform 0.5s ease-in-out;
   /* transform: scale(1); */
@@ -54,13 +60,13 @@
 
 /* custom trending  */
 .custom-trending {
-  outline: 5px solid #a91b60;
+  outline: 2px solid #a91b60;
   transition: background-color 0.5s ease-in;
 }
 .custom-trending:hover {
   color: white;
   @apply bg-stone-900;
-  outline: 5px solid #ff0080;
+  outline: 2px solid #ff0080;
 }
 
 /* trending container div  */

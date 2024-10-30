@@ -5,25 +5,25 @@ const Hero = () => {
   return (
     <div className="w-screen flex flex-wrap md:flex-nowrap bg-slate-100 overflow-clip custom-height">
       {/* div for hero content */}
-      <div className="flex text-4xl h-full md:w-[60%] my-auto">
-        <div className="flex flex-col w-full p-4 md:p-0 my-auto 2xl:ms-20">
+      <div className="flex h-full md:w-[60%] my-auto">
+        <div className="flex flex-col w-full p-2 md:p-0 my-auto 2xl:ms-20">
           {/* for showing offer part */}
           <div className="text-center">
-            <h3 className="2xl:text-5xl text-lg font-bold 2xl:mb-5 mb-2">
-              <span className="rounded-3xl 2xl:px-12 2xl:py-4 bg-white">
+            <h3 className="md:text-xl text-sm  font-bold lg:mb-5 mb-2">
+              <span className="rounded-3xl lg:px-10 lg:py-3 bg-white">
                 Enjoy 50% OFF in Our Summer Super Sale!
               </span>
             </h3>
           </div>
           {/* some tags for hero section */}
-          <div className="text-center my-4 ">
-            <h1 className="font-merriweather font-extrabold text-4xl 2xl:text-8xl 2xl:my-12 2xl:tracking-wide">
+          <div className="text-center my-2 ">
+            <h1 className="font-merriweather font-extrabold text-2xl md:text-3xl lg:my-8 lg:tracking-wide">
               Step into Fashion at Your Ultimate Style Destination!
             </h1>
           </div>
           {/* some paragraphs */}
           <div className="text-center my-3">
-            <p className="font-crimson text-lg font-bold text-gray-400 2xl:text-4xl 2xl:tracking-widest">
+            <p className="font-crimson text-sm font-bold text-gray-400 md:text-lg   lg:tracking-widest">
               Explore a World of Fashion Possibilities with Exclusive Discounts
               - Dive into Your Ultimate Style Destination and Elevate Your
               Wardrobe Today!
@@ -35,7 +35,7 @@ const Hero = () => {
               name={"Shop Now"}
               iconName={"fa-solid fa-arrow-right"}
               color={"white"}
-              textSize={"xl"}
+              textSize={"lg"}
             />
           </div>
         </div>
