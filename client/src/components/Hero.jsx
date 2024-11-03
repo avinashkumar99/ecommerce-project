@@ -3,7 +3,7 @@ import Button from "./Button";
 
 const Hero = () => {
   return (
-    <div className="w-screen flex flex-wrap md:flex-nowrap bg-slate-100 overflow-clip custom-height">
+    <div className="w-[100%] flex flex-wrap md:flex-nowrap bg-slate-100 overflow-clip custom-height">
       {/* div for hero content */}
       <div className="flex h-full md:w-[60%] my-auto">
         <div className="flex flex-col w-full p-2 md:p-0 my-auto 2xl:ms-20">

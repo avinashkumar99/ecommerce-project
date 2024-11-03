@@ -26,7 +26,7 @@ html {
 /* category section  */
 .collection-hover-effect {
   position: relative;
-  left: -12.5%;
+  /* left: -5%; */
   overflow: hidden;
 }
 .collection-hover-effect::after {
@@ -44,7 +44,7 @@ html {
   position: absolute;
   width: 100%;
   height: 100%;
-  right: 30%;
+  right: 25%;
   object-fit: cover;
   transform: translate(70%);
   transition: transform 0.5s ease-in-out;
@@ -70,22 +70,29 @@ html {
 }
 
 /* trending container div  */
-.custom-trending-container {
-  perspective: 2500px;
-}
+/* .custom-trending-container {
+  perspective: 1000px;
+  position: relative;
+} */
 .custom-trending-container img {
-  border: 5px solid #ff0080;
-  margin: auto 2rem;
+  /* border: 5px solid #ff0080; */
 }
 
-.rotated-plus-y {
-  transform: rotateY(20deg) scale(0.8);
-}
+/* .rotated-plus-y {
+  transform: rotateY(10deg) scale(0.9);
+  transform-origin: center center;
+} */
 
-.rotated-mimus-y {
-  transform: rotateY(-20deg) scale(0.8);
-}
+/* .rotated-minus-y {
+  transform: rotateY(-10deg) scale(0.9);
+  transform-origin: center center;
+} */
 
-.mid-img {
-  transform: scale(1.1);
-}
+/* .mid-img {
+  transform: scale(1.05) rotateY(0);
+  transform-origin: center;
+} */
+
+/* .perspective-container {
+  perspective: 2500px;
+} */

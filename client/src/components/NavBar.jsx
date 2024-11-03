@@ -11,7 +11,7 @@ const NavBar = () => {
           <img src="/images/brandIcon.svg" className="h-8 w-8"></img>
           &nbsp; Z &nbsp;Fashion
         </div>
-        <div className="sm:text-md md:text-lg  font-merriweather flex 2xl:w-1/2 w-2/3 text-gray-500 items-center justify-evenly">
+        <div className="text-sm  font-merriweather flex 2xl:w-1/2 w-2/3 text-gray-500 items-center justify-evenly">
           <a href="" className="mx-4 hover:text-gray-950">
             Home
           </a>

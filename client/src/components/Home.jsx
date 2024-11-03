@@ -6,9 +6,9 @@ import Trending from "./Trending";
 
 const Home = () => {
   return (
-    <div className="container">
+    <div className="w-auto">
       <Hero />
-      <div className="w-screen">
+      <div className="w-[100%]">
         <Content1 />
         <Content2 />
         <Trending />
