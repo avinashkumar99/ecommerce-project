@@ -2,7 +2,7 @@ import React from "react";
 
 const NewsAndBlocks = () => {
   return (
-    <div className="min-h-screen w-full mt-2 justify-center flex align-middle">
+    <div className="min-h-screen w-full mt-2 justify-center flex align-middle ">
       <div className="mx-auto w-full text-center flex flex-col h-[80%] my-auto">
         <h3 className="font-bold text-slate-600 text-xl">News & Blogs</h3>
         <h1 className="font-bold md:text-3xl tex-2xl  my-3">

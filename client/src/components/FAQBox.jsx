@@ -5,7 +5,7 @@ const FAQBox = () => {
 
   return (
     <div className="h-screen w-full flex justify-center align-middle overflow-hidden">
-      <div className="md:w-[90%] w-[98%] flex flex-col mx-auto mt-[5%]">
+      <div className="md:w-[90%] w-[98%] flex flex-col mx-auto mt-[5%] border-t border-slate-300 pt-2">
         <p className="font-semibold text-xl text-slate-400 text-center">FAQ</p>
         <h1 className="font-bold md:text-3xl text-2xl text-center ">
           Have Queries? Refer Here

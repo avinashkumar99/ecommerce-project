@@ -2,7 +2,7 @@ import React from "react";
 
 const Content1 = () => {
   return (
-    <div className="h-auto bg-white 2xl:w-[70%] lg:w-[80%] md:w-[90%] md:text-xl flex justify-center mx-auto  md:my-8">
+    <div className="h-auto bg-white 2xl:w-[70%] lg:w-[80%] md:w-[90%] md:text-xl flex justify-center mx-auto  md:my-8 border-b border-slate-300 pb-3">
       <div className="grid md:grid-cols-3 gap-4 2xl:gap-10 grid-cols-1 w-[100%]">
         <div className="h-auto w-[50%] flex mx-auto p-1">
           <div className="md:text-5xl text-2xl me-2 flex my-auto">

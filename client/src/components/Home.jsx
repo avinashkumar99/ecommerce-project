@@ -11,9 +11,10 @@ const Home = () => {
     <div className="w-auto">
       <Hero />
       <div className="w-[100%]">
-        <Content1 />
+        {/* <Trending /> */}
         <Content2 />
-        <Trending />
+        <Content1 />
+
         <NewsAndBlocks />
         <FAQBox />
       </div>
